@@ -6,3 +6,41 @@ I saw this Challenger on Instagram and immediately decided to register. I see it
 
 #### Sincerely,
 #### Iryna.
+
+# Task 2: Selectors
+### **scouts_panel_xpath**
+```
+//h5[contains(text(),"Scouts")]
+//h5[not(@id)]
+//h5/.
+```
+### **login_xpath**
+```
+//*[@id='login']
+//*[@name='login']
+//div[1]/div/input
+```
+### **password_xpath**
+```
+//*[@id="password"]
+//input[contains(@type,'password')]
+//input[starts-with(@id,'p')]
+```
+### **remaind_password_xpath**
+```
+//a[@tabindex='-1']
+//a[contains(text(),"Remind")]
+//*[contains(@class,"jss37")]
+```
+### **language_select_xpath**
+```
+//*[@role='button']
+//*[contains(@class,"Menu")]
+//div[starts-with(@aria-haspopup,"l")]
+```
+### **sing_in_button_xpath**
+```
+//div[2]/button
+//div/descendant::button
+//*[@type="submit"]
+```
